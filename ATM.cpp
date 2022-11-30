@@ -1,3 +1,6 @@
+// @ActiveXSploit
+// Channel Link : https://www.youtube.com/channel/UCIlMtOiRDi1luvhtjczvjJw
+
 #include <windows.h>
 #include <stdio.h>
 #pragma comment(lib, "advapi32.lib")
@@ -38,7 +41,7 @@ void EnablePrivileges(HANDLE hToken, LPCTSTR lpszPrivilege, BOOL bEnablePrivileg
 
 int main() 
 {
-	int pid_to_impersonate = 464;
+	int pid_to_impersonate = ; // Replace this by the PID of a remote process
 	HANDLE TokenHandle = NULL; // Handle to store the remote process token 
 	HANDLE DuplicateTokenHandle = NULL; // Handle to store the duplicated remote process token 
 	STARTUPINFO startupInfo;
