@@ -4,7 +4,7 @@ A repo containing the source code used in my video on Access Token Manipulation,
 # Video tutorial on Access Token Manipulation :
 
 - In order to understand how this works, make sure to check out my video on my YouTube channel <3
-  - **Link** : 
+  - **Link** : https://www.youtube.com/watch?v=SBnlg-jiuiA
 
 # Resources : 
   - https://attack.mitre.org/techniques/T1134/
